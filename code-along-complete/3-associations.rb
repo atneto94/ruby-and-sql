@@ -19,7 +19,7 @@ contact = Contact.new
 contact["first_name"] = "Tim"
 contact["last_name"] = "Cook"
 contact["email"] = "tim@apple.com"
-contact["company_id"] = apple["id"]
+contact["company_id"] = apple["id"] #using the foreign key
 contact.save
 
 contact = Contact.new
